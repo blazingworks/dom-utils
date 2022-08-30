@@ -1,0 +1,25 @@
+{
+    "name": "@blazingworks/dom-utils",
+    "version": "1.0.0",
+    "description": "🌐 DOM Utilities",
+    "main": "dist/dom-utils.js",
+    "files": [
+        "dist/**/*"
+    ],
+    "typings": "dist/dom-utils.d.ts",
+    "repository": "https://github.com/blazingworks/dom-utils.git",
+    "author": "OfficialCRUGG <ich@crugg.de>",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+        "build": "rimraf dist && tsc"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.34.0",
+        "@typescript-eslint/parser": "^5.34.0",
+        "eslint": "^8.22.0",
+        "prettier": "^2.7.1",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.7.4"
+    }
+}
